@@ -4,7 +4,7 @@ Website for **Kaloy** (kaloy.vercel.app): three kitchens under one roof.
 
 - **TSS · The Strange Smoke**: Filipino barbecue (`tss.html`)
 - **1451 Café**: Batangas coffee (`1451.html`)
-- **RV Bakery**: Filipino hard biscuits, mamon tostado (`rv.html`)
+- **RB Bakery**: Filipino hard biscuits, mamon tostado (`rb.html`)
 
 Plain static HTML/CSS/JS, no build step. Vercel serves the repo root (`vercel.json` turns on clean URLs, so `/tss` works).
 
