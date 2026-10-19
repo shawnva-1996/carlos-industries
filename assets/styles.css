@@ -271,3 +271,7 @@ section { padding: 110px 0; }
   box-shadow: 0 10px 30px rgba(0,0,0,.45);
 }
 @media (max-width: 700px) { .brand-logo-corner { width: 96px; height: 96px; left: 16px; bottom: 20px; } }
+
+/* Stock photo filling a .ph slot */
+.ph.photo { background-size: cover; background-position: center; background-repeat: no-repeat; }
+.ph.photo::before, .ph.photo::after { display: none; }
