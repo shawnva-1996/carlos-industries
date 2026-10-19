@@ -263,3 +263,11 @@ section { padding: 110px 0; }
 /* Real hero photo in place of the .ph placeholder */
 .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; }
 .hero-img + .hero-shade { background: linear-gradient(rgba(15,12,10,.35), rgba(15,12,10,.55)); }
+
+/* Full-colour badge logo tucked into the hero's lower-left corner (1451) */
+.brand-logo-corner {
+  position: absolute; left: 32px; bottom: 32px; z-index: 2;
+  width: 150px; height: 150px; border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.45);
+}
+@media (max-width: 700px) { .brand-logo-corner { width: 96px; height: 96px; left: 16px; bottom: 20px; } }
