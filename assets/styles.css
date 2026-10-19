@@ -214,7 +214,8 @@ section { padding: 110px 0; }
 @media (max-width: 900px) { .story { grid-template-columns: 1fr; gap: 36px; } }
 
 .menu-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 36px; }
-.menu-item .ph { aspect-ratio: 1 / 1; margin-bottom: 18px; }
+.menu-item .ph, .menu-photo { aspect-ratio: 1 / 1; margin-bottom: 18px; }
+.menu-photo { width: 100%; height: auto; object-fit: cover; }
 .menu-item h3 { font-size: 15px; letter-spacing: .2em; margin-bottom: 6px; }
 .menu-item p { margin: 0; color: var(--ink-soft); font-size: 16px; }
 @media (max-width: 900px) { .menu-list { grid-template-columns: 1fr 1fr; } }
