@@ -1,4 +1,4 @@
-/* Kaloy — layout and tone modelled on 11co.one: quiet header, full-bleed
+/* RB — layout and tone modelled on 11co.one: quiet header, full-bleed
    imagery, wide-tracked uppercase headings, generous white space. */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap");
 
@@ -275,3 +275,13 @@ section { padding: 110px 0; }
 /* Stock photo filling a .ph slot */
 .ph.photo { background-size: cover; background-position: center; background-repeat: no-repeat; }
 .ph.photo::before, .ph.photo::after { display: none; }
+
+/* RB logo in header/footer: white over the hero, colour once the header turns solid */
+.logo { display: flex; align-items: center; gap: 14px; }
+.logo-img { height: 56px; width: auto; }
+.logo small { display: block; }
+.logo-color { display: none; }
+.site-header.solid .logo-white, .site-header.always-solid .logo-white { display: none; }
+.site-header.solid .logo-color, .site-header.always-solid .logo-color { display: block; }
+.site-footer .logo-img { height: 72px; }
+@media (max-width: 700px) { .logo small { display: none; } .logo-img { height: 46px; } }

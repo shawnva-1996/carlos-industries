@@ -2,6 +2,15 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/rv", "destination": "/rb", "permanent": true }
+    {
+      "source": "/rv",
+      "destination": "/ad",
+      "permanent": true
+    },
+    {
+      "source": "/rb",
+      "destination": "/ad",
+      "permanent": true
+    }
   ]
 }
